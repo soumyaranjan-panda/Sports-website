@@ -252,3 +252,16 @@ const waitForImages = () => {
 };
 
 waitForImages();
+
+
+var myImage = document.getElementsById("search_icon");
+var eleOver = document.getElementById("skp");
+    eleOver.addEventListener("mouseover", mouseOver);
+    eleOver.addEventListener("mouseout", mouseOut);
+    function mouseOver() 
+	{ 
+      myImage.src = "./images/icons8-search - Copy.svg";
+    }
+    function mouseOut() { 
+      myImage.src = "./images/icons8-search.svg";
+    }
