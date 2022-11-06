@@ -70,10 +70,15 @@ header{
     background-color: #FFECEF;
     border-radius: 3px;
     border: none;  
+    padding: 3px;
+    margin: 1.5px;
 }
 .butt:hover
 {
-      
+  border-style: double;
+  border-color: #b97cf3;
+  margin: 0px;
+  padding: 1.5px;
 }
 .acc_icon
 {
@@ -84,9 +89,10 @@ header{
 {
     position: relative;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    padding-right: 12px;
+    padding-right: 5px;
 }
 .navigation_bottom{
     height: 55%;
@@ -98,7 +104,6 @@ header{
     align-content: center;
     align-items: center;
     font-size: 24px;
-    gap: 54px;
     
 }
 .navs
@@ -107,19 +112,33 @@ header{
     justify-content: flex-end;
     align-content: center;
     align-items: center;
-    padding-right: 12px;
+    padding: 0% 4%;
     height: 100%;
-    background: #271D39;
-    
+    color: #271D39;
+    border-radius: 0px 0px 0px 0px;
+    transform: skew(40deg);
+    position: relative;
+    right: -2.7%;
+    border-left: solid;
+    box-shadow: -4px 1px 2px rgb(0 0 0 / 53%);
+}
+.navs_ele
+{
+  transform: skew(-40deg)
 }
 .navs:hover
 {
-
+    background-color: #271D39;
+    color: #fff;
+    border-color: #271D39;
+    transition: 0.5s;
 }
-.search_icon
+  
+#search_icon
 {
     height: 35px;
 }
+
 .footul{
     position: relative;
     height: 45px;
