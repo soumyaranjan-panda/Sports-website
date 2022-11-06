@@ -42,7 +42,29 @@ header{
     box-sizing: content-box;
     top: 0; left: 0; right: 0;
     display: block;
-    background: #271D39;
+    background: #271D39;display: flex;
+    align-content: center;
+    align-items: center;
+    
+}
+.butt
+{
+    
+    background-color: #FFECEF;
+    padding: 2px 5px;
+    border-style: none;
+    border-radius: 3px;
+}
+.acc_icon
+{
+    height: 20px;
+}
+.button
+{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
 }
 .navigation_bottom{
     height: 60%;
