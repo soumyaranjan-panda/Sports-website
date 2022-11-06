@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css" />
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'><link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='//netdna.bootstrapcdn.com/bootswatch/3.1.1/yeti/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
@@ -28,9 +30,12 @@
                 <span class="navs"> <div class="navs_ele">Team&#9662</div></span>
                 <span class="navs"> <div class="navs_ele">Events&#9662</div></span>
                 <span class="navs"> <div class="navs_ele">Shop&#9662</div></span>
-                <span class="navs" id="skp">
+                <span class="navssearch" id="skp">
                     <div class="navs_ele">
-                        <img src="./images/icons8-search.svg" alt="" id="search_icon">
+                        <form class="search-container">
+                            <input id="search-box" type="text" class="search-box" name="q" />
+                            <label for="search-box"><span class="glyphicon glyphicon-search search-icon"></span></label>      
+                        </form>
                     </div>
                 </span>
             </div>
@@ -137,7 +142,7 @@
 
     <section class="footer">
         <div class="top_box">
-            
+
         </div>
         <div class="box">
             <ul class="footul">

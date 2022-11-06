@@ -106,8 +106,70 @@ header{
     font-size: 24px;
     
 }
+.navssearch{
+    cursor: default;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    padding: 0% 2%;
+    height: 100%;
+    background: #271D39;
+    border-radius: 0px 0px 0px 0px;
+    transform: skew(40deg);
+    position: relative;
+    right: -2.7%;
+    border-left: solid;
+    box-shadow: -4px 1px 2px rgb(0 0 0 / 53%);
+}
+
+.search-box {
+  transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: #FFEDF0;
+}
+.search-box + label .search-icon {
+  color: black;
+}
+.search-box:hover {
+  color: #FFEDF0;
+  background: #FFEDF0;
+  box-shadow: 0 0 0 5px #3d4752;
+}
+.search-box:hover + label .search-icon {
+  color: #FFEDF0;
+}
+.search-box:focus {
+  transition: width 0.6s cubic-bezier(0, 1, 1, 1), border-radius 0.6s, background 0.6s;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: text;
+  width: 200px;
+  border-radius: auto;
+  background: #FFEDF0;
+  color: black;
+}
+.search-box:focus + label .search-icon {
+  color: black;
+}
+.search-box:not(:focus) {
+  text-indent: -5000px;
+}
+
+.search-icon {
+  position: relative;
+  left: -32px;
+  color: white;
+  cursor: pointer;
+}
+
 .navs
 {
+    cursor: default;
     display: flex;
     justify-content: flex-end;
     align-content: center;
@@ -279,7 +341,7 @@ button:focus {
   height: auto;
 }
 .cardList__btn {
-  --btn-size: 35px;
+  --btn-size: 90px;
   width: var(--btn-size);
   height: var(--btn-size);
   position: absolute;
@@ -463,3 +525,4 @@ button:focus {
 .support a:hover {
   transform: scale(1.1);
 }
+
