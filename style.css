@@ -42,22 +42,26 @@ header{
     box-sizing: content-box;
     top: 0; left: 0; right: 0;
     display: block;
-    background: #271D39;display: flex;
+    background: #271D39;
+    display: flex;
     align-content: center;
     align-items: center;
-    
+    justify-content: flex-end;
 }
 .butt
 {
-    
     background-color: #FFECEF;
-    padding: 2px 5px;
-    border-style: none;
     border-radius: 3px;
+    border: none;  
+}
+.butt:hover
+{
+      
 }
 .acc_icon
 {
     height: 20px;
+    margin: 0.3vw;
 }
 .button
 {
@@ -65,13 +69,39 @@ header{
     display: flex;
     justify-content: right;
     gap: 10px;
+    padding-right: 12px;
 }
 .navigation_bottom{
     height: 60%;
     box-sizing: content-box;
     top: 0; left: 0; right: 0;
-    display: block;
+    display: flex;
     background: linear-gradient(90deg, #271D39 0%, #FFECEF 70.83%);
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    font-size: 24px;
+    gap: 54px;
+    
+}
+.navs
+{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    padding-right: 12px;
+    height: 100%;
+    background: #271D39;
+    
+}
+.navs:hover
+{
+
+}
+.search_icon
+{
+    height: 35px;
 }
 .footer{
     position: absolute;
