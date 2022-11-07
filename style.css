@@ -530,7 +530,7 @@ button:focus {
   width: 1393px;
   height: 300px;
 
-  background: url(image.png);
+  background: url(images/image.png);
   border-radius: 30px;
   background-repeat: no-repeat;
   background-size: cover;
