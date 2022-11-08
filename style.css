@@ -526,12 +526,13 @@ button:focus {
 .support a:hover {
   transform: scale(1.1);
 }
+
 .bgimage{
   position: absolute;
   width: 1393px;
   height: 300px;
 
-  background: url(images/image.png);
+  background: url(images/Group\ 6.png);
   border-radius: 30px;
   background-repeat: no-repeat;
   background-size: cover;
